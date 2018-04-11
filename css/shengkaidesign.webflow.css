@@ -111,6 +111,7 @@
   margin-bottom: -10px;
   padding-bottom: 10px;
   border:10px solid #ed1c24;
+  zoom:90%;
 }
 
 .maijn {
@@ -1264,12 +1265,12 @@
 
 .link-block-5 {
   position: relative;
-  left: -653px;
+  left:-865px;
   top: 4169px;
   z-index: 999;
   display: inline-block;
   width: 85px;
-  margin-left: -128px;
+  
   float: none;
   clear: none;
 }
