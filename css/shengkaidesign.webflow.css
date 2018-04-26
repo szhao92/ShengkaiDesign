@@ -106,11 +106,11 @@
 }
 
 .body {
-  overflow: auto;
+  overflow: visible;
   height: auto;
   margin-bottom: -10px;
   padding-bottom: 10px;
-  border:10px solid #ed1c24;
+  border: 0px solid #ed1c24;
   zoom:90%;
 }
 
@@ -126,7 +126,7 @@
   margin-bottom: -20px;
   margin-left: 0px;
   padding-bottom: -20px;
-  border:0px solid #ed1c24;
+  border: 10px solid #ed1c24;
 }
 
 .gd3_t {
@@ -277,7 +277,7 @@
 .css_c {
   position: static;
   width: 101.5%;
-  height: 2950px;
+  height: 4000px;
   margin-bottom: -200px;
   border: 0px solid #000;
 }
@@ -294,7 +294,7 @@
 
 .biketitle {
   position: relative;
-  left: 925px;
+  left: 1296px;
   top: 43%;
   width: 200%;
   font-family: 'Gt cinetype', sans-serif;
@@ -323,8 +323,9 @@
 
 .section {
   width: 105%;
-  height: 1000px;
+  height: 3000px;
   margin-top: -20px;
+  margin-bottom: 200px;
   border: 0px solid #000;
 }
 
@@ -763,7 +764,7 @@
 
 .show {
   position: relative;
-  height: 3200%;
+  height: 3200px;
   margin-top: 80px;
   margin-left: 238px;
   box-shadow: 26px 0 6px 0 #fff;
@@ -1264,13 +1265,15 @@
 }
 
 .link-block-5 {
-  position: relative;
-  left:-860px;
+  position: static;
+  left: -653px;
   top: 4169px;
+  right: -653px;
+  bottom: 4169px;
   z-index: 999;
   display: inline-block;
   width: 85px;
-  
+  margin-left: 0px;
   float: none;
   clear: none;
 }
@@ -1396,6 +1399,31 @@
   bottom: 0px;
 }
 
+.image-43 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 85px;
+  margin-left: 74px;
+}
+
+.div-block-33 {
+  width: 900px;
+  margin-top: 80px;
+  margin-left: 350px;
+}
+
+.lightbox-link-6 {
+  margin-top: 80px;
+}
+
+.link-block-7 {
+  margin-left: 74px;
+}
+
+.image-45 {
+  width: 85px;
+}
 
 html.w-mod-js *[data-ix="jdmh"] {
   display: none;
@@ -1421,6 +1449,24 @@ html.w-mod-js *[data-ix="arhide"] {
   display: none;
 }
 
+@media (max-width: 991px) {
+  .fixedbar {
+    height: 20%;
+  }
+  .nav-menu {
+    position: static;
+  }
+  .lineshort {
+    left: 150px;
+  }
+  .brand.w--current {
+    width: 20%;
+  }
+  .image-44 {
+    width: 91.5%;
+  }
+}
+
 @media (max-width: 767px) {
   .paragraph {
     position: static;
@@ -1444,6 +1490,10 @@ html.w-mod-js *[data-ix="arhide"] {
     left: 25%;
     width: 400%;
     font-size: 500%;
+  }
+  .brand.w--current {
+    width: 50%;
+    margin-left: -72px;
   }
 }
 
